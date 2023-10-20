@@ -6,7 +6,7 @@ import { BiUserCircle } from "react-icons/bi";
 
 const SideBar = () => {
   return (
-    <div className="hidden  lg:flex lg:flex-col bg-[#4285F4] py-15 px-18  rounded-xl text-white h-[90%] justify-between min-w-[15%]   fixed  overflow-y-auto" >
+    <div className="hidden  lg:flex lg:flex-col bg-[#4285F4] py-15 px-18  rounded-xl text-white h-[90%] justify-between min-w-[15%] fixed  overflow-y-auto">
       {/* left navBar */}
       <div className=" flex flex-col  justify-center">
         <h1 className=" mt-5 text-4xl ml-5 font-bold ">Board.</h1>
@@ -33,7 +33,7 @@ const SideBar = () => {
           </ul>
         </div>
       </div>
-      <div className="dash-nav my-2">
+      <div className="dash-nav my-2 mr-8">
         <ul>Help</ul>
         <ul>Contact Us</ul>
       </div>
