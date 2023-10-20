@@ -33,7 +33,7 @@ const SideBar = () => {
           </ul>
         </div>
       </div>
-      <div className="dash-nav my-2">
+      <div className="dash-nav my-2 mr-8">
         <ul>Help</ul>
         <ul>Contact Us</ul>
       </div>
